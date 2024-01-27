@@ -4,45 +4,52 @@ nav {
   align-items: center;
   background-color: #000000;
   /* padding-bottom: 5px; */
- margin-bottom: 5px;
+ margin-bottom: 1px;
 position: static;
 }
 
 .logo {
-  height: 15vh;
+  height: 10vh;
   margin-left: 20%;
   position: relative;
 }
 
-
+.home{
+  margin-left: 30px;
+}
 
 .left {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  /* margin-right: 5%; */
+  width: 100%;
 
 }
 
 .navLink {
   width: 10vw;
-  margin: 5px;
   font-size: x-large;
   display: flex;
   justify-content:center;
   align-items:center;
-  line-height: 2em;
-  color: #fff;
-  text-decoration:none
+  line-height: 1em;
+  color: #C9FF28;
+  text-decoration:none;
 }
 
 .connect {
+  position: relative0;
   margin-top:10px;
-  height: 2em;
+  height: 1em;
   padding: 10px;
   background-color: #fff;
   color: black ;
   display: flex;
   align-items: center;
   
+}
+.connectbtn{
+  margin-left: 65%;
+}
+.pop{
+  margin-left: 66px;
+  width:10px;
 }
