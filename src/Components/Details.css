@@ -1,122 +1,113 @@
+.mainn{
+  background-color: black;
+}
 .page-2main{
-  height:100vh;
-  font-size:3vh;
+  height: 100vh;
+  font-size: 3vh;
   background-color:black;
   color:white;
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center;
-  padding: 2rem;
-}
-.rightForm{
-  display: flex;
-  flex-direction: column;
-  height:100%;
-  text-align: center;
-  align-items:center;
-  justify-content: center;
-  padding:0;
-  width:100%;
-  font-size:1.5rem;
-
-}
-.tenent1{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-.tenent2{
-  width: 100%;
-}
-.tenent3{
-  width: 100%;
 }
 
 .leftForm{
   display: flex;
-  overflow: hidden;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:flex-start;
   width:70vw;
-  margin: 0 auto;
+  margin:10%;
+}
+.upSign{
+  display: flex;
 }
 
+.upAgr{
+  display: flex;
+}
 
 .lab{
   width: 20rem;
-
 }
+
 input{
   width:100%;
   height:5vh;
   margin-top:2vh;
   margin-bottom:2vh;
+  border:none;
+  border-radius:5px;
+}
+
+.upload1{
+  width:50%;
+  height:5vh;
   border-radius:5px;
   border:none;
   outline:none;
-  padding-left:1vw;
+  font-size:1.1rem;
+  flex-wrap: wrap;
+}
+
+.rightForm{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  position: absolute;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+.tenent1{
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.tenent2{
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 7%;
+  
+}
+
+.tenent3{
+  width: 100%;
+  flex-direction: column;
 }
 
 .addmore{
-  width:30%;
+  background-color: #C9FF28;
+  color:black;
+  width:70%;
   height:5vh;
   margin-top:2vh;
   margin-bottom:2vh;
   border-radius:5px;
   border:none;
-  outline:none;
   font-size:1.1rem;
 }
-.tenent1, .tenent2, .tenant3 {
-  margin-bottom: 20px;
-}
 
-.upSign, .upAgr {
-  margin-bottom: 20px; 
-}
-.tenent{
-  width:30%;
-  display:flex;
-  height:5vh;
-  margin-top:2vh;
-  margin-bottom:2vh;
-  border-radius:5px;
-  border:none;
-  outline:none;
-  font-size:1rem;
-}
-
-
-.upload1{
-  width:25%;
-  height:5vh;
-  margin-top:2vh;
-  margin-bottom:2vh;
-  border-radius:5px;
-  border:none;
-  outline:none;
-  font-size:1.1rem;
-}
 .submit{
+  margin-left: 35%;
+  align-items: center;
+  text-align: center;
+  background-color: #C9FF28;
+  color:black;
   width:30%;
   height:5vh;
   border-radius:5px;
+  border:none;
+  font-size:1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-}
-.mainn{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  width:100vw;
-  font-size:3vh;
-  background-color:black;
-  color:white;
 
-}
-.upsign{
-  display:flex;
-  flex-direction: column;
-}
+
+
+
+

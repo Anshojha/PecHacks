@@ -64,51 +64,44 @@ export default function MyForm() {
               Monthly Amount <br />
               <input type="number" onChange={handleMonthlyChange} value={monthly} />
             </label><br />
-            <label className='lab' >
-              Owner <br />
+            <label className='lab1' >
+              Owners details 
               <div className='upSign'>
                  <input className='inpSign' type="file" name="sign" id="" />
-                 <button className='upload1' type="submit">upload signature</button>
+                 <button className='upload1' type="submit"> UPLOAD SIGNATURE </button>
               </div>
               <div className='upAgr'>
-              <input className='inpAgr' type="file" name="agreement" id="" />
-               <button className='upload1' type="submit">upload Agreement</button>
+                <input className='inpAgr' type="file" name="agreement" id="" />
+               <button className='upload1' type="submit"> UPLOAD AGREEMENT </button>
               </div>
             </label>
-             
-          </form>
-          <form className="rightForm" onSubmit={handleSubmit}>
-            Tenent 1 <br/>
+            
+            </form>
+            <form className="rightForm" onSubmit={handleSubmit}>
             <div className="tenent1">
-
-            <span >Public address</span>
-            <label className='tenent'>
-            <input type="text" onChange={handleTen1Change} required pattern='[a-zA-Z0-9]+'  value={ten1} />
-            </label>
+              Tenent 1 Public address
+             <label className='tenent'>
+                <input type="text" onChange={handleTen1Change} required pattern='[a-zA-Z0-9]+'  value={ten1} />
+             </label>
             </div>
-            <br />
+          
             <div className="tenent2">
-
-            Tenent 2
-            <br/>
-            <span >Public address</span>
-            <label className='tenent'>
-            <input type="text" onChange={handleTen2Change} value={ten2} />
-            </label> <br />
+              Tenent 2 Public address
+              <label className='tenent'>
+              <input type="text" onChange={handleTen2Change} value={ten2} />
+              </label> <br />
             </div>
+        
             <div className="tenant3">
-
-            Tenent 3
-            <br/>
-            <span >Public address</span>
-            <label className='tenent'>
-              <input type="text" value={ten3} onChange={handleTen3Change} />
-               </label> <br />
+              Tenent 3 Public address
+              <label className='tenent'>
+                <input type="text" value={ten3} onChange={handleTen3Change} />
+              </label>
             </div>
-            <button className='addmore' type="submit">add more</button>
-          </form>
-        </div>
-        <button onClick = {()=> navigate("/Payment")} className='submit' type="submit">submit details</button>
+            <button className='addmore' type="submit">Add More Tenants</button>
+            </form>
+            </div>
+            <button className=" submit" onClick = {()=> navigate("/Payment")} type="submit">submit details</button>
       </div>
     </>
   );
