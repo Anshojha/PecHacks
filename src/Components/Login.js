@@ -11,10 +11,12 @@ const Page3 = () => {
       <div className='page3main'>
       <div onClick = {()=> navigate("/owner")} className='left1'>
         <img className="owner" src={owner} alt="owner" />
+        <br></br>
       Owner
       </div>
       <div onClick = {()=> navigate("/tenant")}  className='right1'>
         <img className="owner" src={owner} alt="owner" />
+        <br></br>
       Tenant
       </div>
     </div>

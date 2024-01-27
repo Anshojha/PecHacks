@@ -1,42 +1,33 @@
 .pagee3{
-height: 85vh;
-  position: relative;
+height: 90vh;
+  position:relative ;
   background-color: black;
 }
 .how{
   display: flex;
-  line-height: 2em;
+  line-height: 5em;
   justify-content: center;
-  font-size: xx-large;
+  font-size: xxx-large;
   color:#fff;
   font-weight: 700;
-  
 }
 .page3main{
     display:flex;
     position: relative;
     justify-content: space-around;
-    /* flex-direction: row; */
-    align-items: center;
-    margin-top: 50px;
-    padding-top: 50px;
-
-    /* height: 80vh; */
   }
   .left1{
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  font-weight: 600;
-  font-size: xx-large;
-  align-items: center;
-  margin-left:100px;
-  cursor: pointer;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 600;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: flex-end;
   
 }
 .right1{
-  height: 60vh;
   display: flex;
   cursor: pointer;
   flex-direction: column;
@@ -44,9 +35,7 @@ height: 85vh;
   font-weight: 600;
   font-size: xx-large;
   align-items: center;
-  margin-right: 70px;
+  justify-content: flex-end;
+  /* margin-right: 70px; */
   }
-  .owner{
-    height: 30vh;
-    weight:40vw;
-  }
+  
