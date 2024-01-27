@@ -15,6 +15,7 @@ height: 90vh;
     display:flex;
     position: relative;
     justify-content: space-around;
+    /* cursor: none; */
   }
   .left1{
     display: flex;
@@ -38,4 +39,7 @@ height: 90vh;
   justify-content: flex-end;
   /* margin-right: 70px; */
   }
-  
+  .owner{
+    height: 30vh;
+    border-radius: 50%;
+  }
