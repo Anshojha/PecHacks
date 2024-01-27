@@ -3,8 +3,8 @@ import './Rooms.css';
 
 const Rooms = () => {
   return (
-    <div className='main'>
-     
+    <div className='room-main'>
+        
     </div>
   )
 }
