@@ -56,6 +56,7 @@ input{
   position: absolute;
   margin-left: 40%;
   margin-bottom: 5%;
+  
 }
 
 .tenent1{
@@ -85,18 +86,21 @@ input{
   height:5vh;
   margin-top:2vh;
   margin-bottom:2vh;
+  margin-left:4vw;
   border-radius:5px;
   border:none;
   font-size:1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  word-spacing: 5px;
 }
 
 .submit{
-  margin-left: 35%;
-  align-items: center;
+  margin-left: 40%;
   text-align: center;
   background-color: #C9FF28;
   color:black;
-  width:30%;
+  width:20%;
   height:5vh;
   border-radius:5px;
   border:none;
@@ -104,6 +108,10 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 800;
+  word-spacing: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
 }
 
 

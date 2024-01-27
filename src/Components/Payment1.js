@@ -13,23 +13,21 @@ const Payment = () => {
   return (
     <div className="main">
       <div className='main2'>
-      <div className='main2Form'>
         <h1>Token Amount</h1><br />
-        <input className='input1' type="text" />
+        <input className='payee1' type="text" />
         <h1>Date</h1><br />
-        <input className='input1' type="date" /><br />
+        <input className='payee1' type="date" /><br />
         <button className='details' type="submit" onClick={handleGetDetails}>Get Details</button>
       </div>
-      </div>  
       <div className='main3'>
         <h1>Transaction Details</h1>
         <div className='details1'>
-        <div className='number'>S.No</div>
-        <div className='date1'>Date</div>
-        <div className='amount'>Token Amount</div>
-        <div className='address'>Transaction Address</div>
+          <div className='number'>S.No</div>
+          <div className='date1'>Date</div>
+          <div className='amount'>Token Amount</div>
+          <div className='address'>Transaction Address</div>
         </div>
-    </div>
+      </div>
     </div>
   );
 }

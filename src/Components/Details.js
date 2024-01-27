@@ -47,7 +47,7 @@ export default function MyForm() {
         <div className="page-2main">
           <form className="leftForm" onSubmit={handleSubmit}>
             <label className='lab'>
-              No. of Tenent <br />
+              No. of Tenant <br />
               <input type="number" onChange={handleNumberChange} value={tenantenub} />
             </label>
             <br />
@@ -79,21 +79,21 @@ export default function MyForm() {
             </form>
             <form className="rightForm" onSubmit={handleSubmit}>
             <div className="tenent1">
-              Tenent 1 Public address
+              Tenant 1 Public address
              <label className='tenent'>
                 <input type="text" onChange={handleTen1Change} required pattern='[a-zA-Z0-9]+'  value={ten1} />
              </label>
             </div>
           
             <div className="tenent2">
-              Tenent 2 Public address
+              Teant  2 Public address
               <label className='tenent'>
               <input type="text" onChange={handleTen2Change} value={ten2} />
               </label> <br />
             </div>
         
             <div className="tenant3">
-              Tenent 3 Public address
+              Tenant 3 Public address
               <label className='tenent'>
                 <input type="text" value={ten3} onChange={handleTen3Change} />
               </label>
@@ -101,7 +101,7 @@ export default function MyForm() {
             <button className='addmore' type="submit">Add More Tenants</button>
             </form>
             </div>
-            <button className=" submit" onClick = {()=> navigate("/Payment")} type="submit">submit details</button>
+            <button className=" submit" onClick = {()=> navigate("/Payment")} type="submit">SUBMIT DETAILS</button>
       </div>
     </>
   );

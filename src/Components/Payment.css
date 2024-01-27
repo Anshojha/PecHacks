@@ -42,8 +42,10 @@
     height: 5vh;
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #C9FF28;
+    letter-spacing: 2px;
+    word-spacing: 3px;
   }
   .details1{
     width:97vw;
@@ -53,9 +55,4 @@
   }
 
 
-  #imggg{
-    margin-left:450px;
-    border-radius:15px;
-    height:30rem;
-    width:35rem;
-  }
+

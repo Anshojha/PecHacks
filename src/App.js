@@ -4,6 +4,7 @@ import Welcome from "./Components/Welcome";
 import Details from "./Components/Details";
 import Payee from "./Components/Paye";
 import Login from "./Components/Login";
+import Rooms from "./Components/Rooms";
 import Completed from "./Components/Completed";
 import Payment from "./Components/Payment1";
 import '@rainbow-me/rainbowkit/styles.css';
@@ -45,6 +46,7 @@ const App = () => {
                                         <Routes>
                                                 <Route path="/" element={<>    <Welcome /></>} />
                                                 <Route path="/owner" element={<>   <Details /></>} />
+                                                <Route path="/rooms" element={<>   <Rooms /></>} />
                                                 <Route path="/tenant" element={<>   <Payee /></>} />
                                                 <Route path="/dashboard" element={<>  <Login /></>} />
                                                 <Route path="/Payment" element={<>  <Payment /></>} />
