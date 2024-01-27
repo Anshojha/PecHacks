@@ -79,25 +79,32 @@ export default function MyForm() {
           </form>
           <form className="rightForm" onSubmit={handleSubmit}>
             Tenent 1 <br/>
+            <div className="tenent1">
+
             <span >Public address</span>
             <label className='tenent'>
             <input type="text" onChange={handleTen1Change} required pattern='[a-zA-Z0-9]+'  value={ten1} />
             </label>
+            </div>
             <br />
+            <div className="tenent2">
+
             Tenent 2
             <br/>
             <span >Public address</span>
             <label className='tenent'>
             <input type="text" onChange={handleTen2Change} value={ten2} />
             </label> <br />
-            
+            </div>
+            <div className="tenant3">
+
             Tenent 3
             <br/>
             <span >Public address</span>
             <label className='tenent'>
               <input type="text" value={ten3} onChange={handleTen3Change} />
                </label> <br />
-            <div></div>
+            </div>
             <button className='addmore' type="submit">add more</button>
           </form>
         </div>
