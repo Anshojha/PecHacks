@@ -1,6 +1,5 @@
 .page-2main{
   height:100vh;
-  width:100vw;
   font-size:3vh;
   background-color:black;
   color:white;
@@ -42,6 +41,7 @@ input{
   outline:none;
   padding-left:1vw;
 }
+
 .addmore{
   width:30%;
   height:5vh;
@@ -50,7 +50,6 @@ input{
   border-radius:5px;
   border:none;
   outline:none;
-  margin-left:5vw;
   font-size:1.1rem;
 }
 .tenent{
@@ -63,19 +62,9 @@ input{
   border:none;
   outline:none;
   font-size:1rem;
+}
 
-}
-.upload{
-  width:25%;
-  height:5vh;
-  margin-top:2vh;
-  margin-bottom:2vh;
-  border-radius:5px;
-  border:none;
-  outline:none;
-  margin-left:2vw;
-  font-size:1.1rem;
-}
+
 .upload1{
   width:25%;
   height:5vh;
@@ -84,7 +73,6 @@ input{
   border-radius:5px;
   border:none;
   outline:none;
-  margin-right:1vw;
   font-size:1.1rem;
 }
 .submit{
@@ -102,4 +90,8 @@ input{
   background-color:black;
   color:white;
 
+}
+.upsign{
+  display:flex;
+  flex-direction: column;
 }

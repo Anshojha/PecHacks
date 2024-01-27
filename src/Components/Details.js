@@ -74,8 +74,8 @@ export default function MyForm() {
               <input className='inpAgr' type="file" name="agreement" id="" />
                <button className='upload1' type="submit">upload Agreement</button>
               </div>
-             
             </label>
+             
           </form>
           <form className="rightForm" onSubmit={handleSubmit}>
             Tenent 1 <br/>
@@ -101,7 +101,7 @@ export default function MyForm() {
             <button className='addmore' type="submit">add more</button>
           </form>
         </div>
-        <button onClick = {()=> navigate("/Payment")} className='submit' type="submit">Pay wallet</button>
+        <button onClick = {()=> navigate("/Payment")} className='submit' type="submit">submit details</button>
       </div>
     </>
   );
