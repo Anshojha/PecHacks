@@ -11,9 +11,13 @@ export default function Navbar() {
       <Link to="/">  <img className="logo" src={logo} alt="logo" />    </Link>
 
       < div className="left">
-        <Link to="/" className="navLink">HOME</Link>
-        <Link to="/tenant" className="navLink">RENT</Link>
+        <Link to="/" className="navLink home">HOME</Link>
+        <Link to="/tenant" className="navLink rent">RENT</Link>
+       <div className="connectbtn">
+
         <ConnectButton/>
+       </div>
+       
         </div>
         <div className="pop">
         
