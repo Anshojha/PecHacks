@@ -1,7 +1,7 @@
 
 .welcome {
   background-color: black;
-  color: white;
+  color: #C9FF28;
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@
 
 
 .joinBtn{
-  background-color:#fff;
+  background-color:#C9FF28;
   color:black;
   font-size:2rem;
   cursor:pointer;
