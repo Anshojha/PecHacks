@@ -40,6 +40,12 @@ export default function MyForm() {
     event.preventDefault();
 
   };
+  const sigalert = (event)=>{
+    alert("signature uploaded successfully");
+  }
+  const agreealert = (event)=>{
+    alert("Agreement uploaded successfully");
+  }
 
   return (
     <>
@@ -68,11 +74,11 @@ export default function MyForm() {
               Owners details 
               <div className='upSign'>
                  <input className='inpSign' type="file" name="sign" id="" />
-                 <button className='upload1' type="submit"> UPLOAD SIGNATURE </button>
+                 <button className='upload1' type="submit" onClick={sigalert}> UPLOAD SIGNATURE </button>
               </div>
               <div className='upAgr'>
                 <input className='inpAgr' type="file" name="agreement" id="" />
-               <button className='upload1' type="submit"> UPLOAD AGREEMENT </button>
+               <button className='upload1' type="submit" onClick={agreealert}> UPLOAD AGREEMENT </button>
               </div>
             </label>
             
