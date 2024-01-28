@@ -51,9 +51,9 @@
 }
 
 .welcomeImg:hover{
-  width: 32vw;
-  height: 62vh;
-
+  width: 35vw;
+  height: 65vh;
+  transition: 900ms;
   cursor: pointer;
   scale: (1.5);
 }
@@ -71,4 +71,8 @@
   left: 0;
   float:left;
   width:max-content;
+}
+.joinBtn:hover{
+  font-size:2.4rem;
+  
 }
