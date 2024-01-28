@@ -43,3 +43,7 @@ height: 90vh;
     height: 30vh;
     border-radius: 50%;
   }
+  .owner:hover{
+    transition: 400ms;
+    height: 31vh;
+  }

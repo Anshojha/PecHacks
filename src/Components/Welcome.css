@@ -73,6 +73,7 @@
   width:max-content;
 }
 .joinBtn:hover{
+  transition: 499ms;
   font-size:2.4rem;
   
 }
