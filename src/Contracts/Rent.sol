@@ -58,4 +58,6 @@ contract RentalContract {
         rented = false;
         emit PropertyVacated(tenant, securityDeposit);
     }
+
+    
 }

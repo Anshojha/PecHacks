@@ -24,6 +24,8 @@ contract SimpleERC721TokenFactory {
     mapping(address=>SimpleERC721Token) public ERC_Address;
 
 
+    
+
     function createSimpleERC721Token() public {
         require(!claimed[msg.sender],"NFT Contract already exists for the address");
         SimpleERC721Token newToken = new SimpleERC721Token(address(this));

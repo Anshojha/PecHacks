@@ -17,10 +17,10 @@ import {
 import {configureChains, createConfig, WagmiConfig } from 'wagmi';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { xdcTestnet } from "viem/chains";
+import {ethTestnet } from "viem/chains";
 
 const { chains, publicClient } = configureChains(
-        [xdcTestnet],
+        [ethTestnet],
         [
                 alchemyProvider({ apiKey: process.env.ALCHEMY_ID }),
                 publicProvider()

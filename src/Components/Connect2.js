@@ -43,6 +43,7 @@ class WanchainIntegration extends Component {
         {this.state.account && (
           <div>
             <p>Account: {this.state.account}</p>
+            
             <p>Balance: {this.state.web3.utils.fromWei(this.state.balance, 'ether')} WAN</p>
           </div>
         )}

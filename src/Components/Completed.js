@@ -6,8 +6,8 @@ function Completed() {
     const navigate = useNavigate();
   return (
     <div>
-      <img onClick = {()=> navigate("./Completed")} className="imgggg" src="./assets/thanku.jpg">
-      </img>
+      // <img onClick = {()=> navigate("./Completed")} className="imgggg" src="./assets/thanku.jpg">
+      // </img>
     </div>
   )
 }
